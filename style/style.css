@@ -405,7 +405,7 @@ b{
 #low{
     margin-left: 49px;
 } 
-/* .run-extra{
+ .run-extra{
     max-width: 1200px;
     height: 370px;
     border: 2px solid white;
@@ -442,7 +442,7 @@ b{
     border-radius: 18px;
     /* margin: 20px;
     background: none; */
-} */
+} 
 
 
 @media screen and (max-width:576px) {
@@ -508,5 +508,3 @@ b{
       gap: 14px;
       }
      }
-
-}
