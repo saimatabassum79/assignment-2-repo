@@ -457,8 +457,22 @@ b{
    margin-right: 25px;
    margin-top: 6px;
 }
-
-
+.bmi-calculator{
+    max-width: 670px;
+    height: 110px;
+   
+    margin-top: 50px;
+}
+.bmi-calculator h1{
+    color: #FFFFFF;
+    font-size: 43px;
+    margin-bottom: 15px;
+    font-family: Inter;
+    font-weight: 800;
+}
+.bmi-calculator p{
+    font-size: 21px;
+}
 @media screen and (max-width:576px) {
     header{
         max-width: 576px;
@@ -542,5 +556,10 @@ b{
       .run-image img{
         width: 440px;
         height: 300px;
+      }
+      .bmi-calculator{
+        max-width: 576p;
+        height: 120px;
+        padding: 20px;
       }
  }
