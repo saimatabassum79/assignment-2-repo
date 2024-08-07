@@ -74,7 +74,7 @@ i{
 }
 
  .icon1{
-    font-size: 43px;
+    font-size: 40px;
   
     align-items: center;
     color: #e4e3e3;
@@ -127,7 +127,7 @@ b{
 
 #mid{
     font-family:"Dancing script";
-    font-weight: 200;
+    font-weight: 300;
     font-size: 80px;
     background: none;
    
@@ -171,7 +171,7 @@ b{
     width:160px;
     height: 80px;
     /* border: 2px solid white; */
-    background-color: #776e6e80;
+    background-color: #6d676780;
      margin-top: 20px;  
    margin-left: 250px;
    padding-left: 8px;
@@ -206,10 +206,12 @@ b{
     background: none;
     margin-top: 200px;
     /* margin-right:790px; */
-    background-color: #776e6e80;
+    background-color: #6e696980;
+    
     border-radius: 10px;
     padding: 8px 14px;
    margin-right: 300px;
+   
     
 }
  .circle1{
@@ -218,7 +220,20 @@ b{
    
    background-color:#E6533C;
     border-radius: 50% 50% 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    position: relative;
+  
 } 
+/* .circle1-btn{
+    width: 15px;
+    height: 15px;
+    transform: rotate(90.00deg);
+    background-color: #ffffff;
+} */
 .circle{
    
     width: 150px;
@@ -431,14 +446,16 @@ b{
         margin-bottom: 900px;
        height: 580px;
      }
-     /* .part{
+      .part{
        margin-bottom: 40px;
      }
      .part1{
         margin-top: 30px;
-     } */
+     } 
      .banner-content{
         margin-bottom: 0px;
      }
-
+     .circle1{
+        display: flex;
+     }
 }
