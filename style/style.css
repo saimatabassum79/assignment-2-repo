@@ -255,16 +255,16 @@ b{
     font-size: 20px;
     background: none;
 }
-/* .change-habit{
+ .change-habit{
     max-width: 1200px;
     height: 530px;
-    border: 2px solid white;
+   
     margin-top: 80px;
 }
  .habit{
     max-width: 620px;
     height: 120px;
-   border: 2px solid palegoldenrod;
+  
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -284,12 +284,12 @@ b{
     font-family: Inter;
 }
 #down{
-    margin-left: 130px;
+    margin-left: 110px;
 }
 .habit-image{
     max-width: 1190px;
     height: 350px;
-    border: 2px solid rgb(208, 225, 13);
+    
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -297,7 +297,7 @@ b{
    
 }
 .habit-image1{
-    border: 2px solid white;
+   
     width: 270px;
     height: 350px;
 }
@@ -324,7 +324,7 @@ b{
     margin-left: 49px;
 }
 .habit-image2{
-    border: 2px solid white;
+   
     width: 270px;
     height: 350px;
 }
@@ -338,9 +338,10 @@ b{
     font-size: 20px;
     font-family: Inter;
     font-weight: 600;
-    margin-left: 80px;
+    margin-left: 115px;
     margin-top: 20px;
     margin-bottom: 15px;
+    
 }
 .habit-image2 p1{
     color: #FFFFFF80;
@@ -351,7 +352,7 @@ b{
     margin-left: 49px;
 }
 .habit-image3{
-    border: 2px solid white;
+  
     width: 270px;
     height: 350px;
 }
@@ -365,7 +366,7 @@ b{
     font-size: 20px;
     font-family: Inter;
     font-weight: 600;
-    margin-left: 80px;
+    margin-left: 100px;
     margin-top: 20px;
     margin-bottom: 15px;
 }
@@ -378,7 +379,7 @@ b{
     margin-left: 49px;
 }
 .habit-image4{
-    border: 2px solid white;
+   
     width: 270px;
     height: 350px;
 }
@@ -403,6 +404,44 @@ b{
 }
 #low{
     margin-left: 49px;
+} 
+/* .run-extra{
+    max-width: 1200px;
+    height: 370px;
+    border: 2px solid white;
+    background-color: #222222;
+    border-radius: 16px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.run-content{
+    width: 500px;
+    height: 370px;
+    border: 2px solid yellow;
+    background: none;
+   margin-left: 20px;
+}
+.run-content h1{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: Inter;
+    background: none ;
+    margin: 20px;
+
+}
+.run-content p{
+    background: none;
+    font-size: 18px;
+}
+.run-image img{
+    width: 430px;
+    height: 350px;
+    border-radius: 18px;
+    /* margin: 20px;
+    background: none; */
 } */
 
 
@@ -458,4 +497,16 @@ b{
      .circle1{
         display: flex;
      }
+     .change-habit{
+        max-width: 576px;
+        height: 1650px;
+        margin-top: 10px;
+     }
+     .habit-image{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap: 14px;
+      }
+     }
+
 }
