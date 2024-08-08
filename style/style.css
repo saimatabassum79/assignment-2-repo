@@ -87,9 +87,9 @@ i{
     justify-content: space-between;
     display: flex;
     align-items: center;
-   margin-top: 40px;
+  
    background: none;
-    /* margin-top: 40px; */
+    
 }
 .banner-section{
     background: none;
@@ -262,7 +262,7 @@ b{
     background: none;
 }
  .change-habit{
-    max-width: 90%;
+    max-width: 85%;
     height: 530px;
    
     margin-top: 80px;
@@ -279,21 +279,21 @@ b{
 } 
 .habit h1{
     color: #FFFFFF;
-    font-size: 50px;
+    font-size: 40px;
 
 
 }
 .habit p{
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 20px;
     align-items: center;
     font-family: Inter;
 }
 #down{
-    margin-left: 110px;
+    margin-left: 90px;
 }
 .habit-image{
-    max-width: 1190px;
+     width: 100%;
     height: 350px;
     
     margin-top: 50px;
@@ -308,8 +308,8 @@ b{
     height: 350px;
 }
 .habit-image1 img{
-    width: 260px;
-    height: 240px;
+    width: 230px;
+    height: 210px;
     border-radius: 50% 50% 50% 50%;
 }
 .habit-image1 h2{
@@ -317,13 +317,13 @@ b{
     font-size: 20px;
     font-family: Inter;
     font-weight: 600;
-    margin-left: 80px;
+    margin-left: 60px;
     margin-top: 20px;
     margin-bottom: 15px;
 }
 .habit-image1 p1{
     color: #FFFFFF80;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 12px;
 }
 #low{
@@ -335,8 +335,8 @@ b{
     height: 350px;
 }
 .habit-image2 img{
-    width: 260px;
-    height: 240px;
+    width: 230px;
+    height: 210px;
     border-radius: 50% 50% 50% 50%;
 }
 .habit-image2 h2{
@@ -344,14 +344,14 @@ b{
     font-size: 20px;
     font-family: Inter;
     font-weight: 600;
-    margin-left: 115px;
+    margin-left: 90px;
     margin-top: 20px;
     margin-bottom: 15px;
     
 }
 .habit-image2 p1{
     color: #FFFFFF80;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 12px;
 }
 #low{
@@ -363,8 +363,8 @@ b{
     height: 350px;
 }
 .habit-image3 img{
-    width: 260px;
-    height: 240px;
+    width: 230px;
+    height: 210px;
     border-radius: 50% 50% 50% 50%;
 }
 .habit-image3 h2{
@@ -372,13 +372,13 @@ b{
     font-size: 20px;
     font-family: Inter;
     font-weight: 600;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: 20px;
     margin-bottom: 15px;
 }
 .habit-image3 p1{
     color: #FFFFFF80;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 12px;
 }
 #low{
@@ -390,8 +390,8 @@ b{
     height: 350px;
 }
 .habit-image4 img{
-    width: 260px;
-    height: 240px;
+    width: 230px;
+    height: 210px;
     border-radius: 50% 50% 50% 50%;
 }
 .habit-image4 h2{
@@ -399,25 +399,25 @@ b{
     font-size: 20px;
     font-family: Inter;
     font-weight: 600;
-    margin-left: 80px;
+    margin-left: 74px;
     margin-top: 20px;
     margin-bottom: 15px;
 }
 .habit-image4 p1{
     color: #FFFFFF80;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 12px;
 }
 #low{
     margin-left: 49px;
 } 
  .run-extra{
-    max-width: 90%;
+    max-width: 85%;
     height: 370px;
    
     background-color: #222222;
     border-radius: 16px;
-    margin-top: 60px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -442,7 +442,7 @@ b{
 }
 .run-content p{
     background: none;
-    font-size: 22px;
+    font-size: 21px;
     margin-left: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -486,11 +486,13 @@ b{
     }
     .nav-links{
         display: none;
+        
     }
     .brand{
         margin: 0;
        margin-left: 45px;
         font-size: 40px;
+        margin-top: 20px;
     }
     .navbar, .banner-section{
         max-width: 576px;
@@ -498,6 +500,7 @@ b{
      .icon1{
         display: flex;
         font-size: 27px;
+        margin-top: 20px;
     }  
     .banner-section{
         flex-direction: column;
@@ -538,12 +541,13 @@ b{
         margin-top: 10px;
      }
      .habit-image{
+        width: 100%;
       display: grid;
       grid-template-columns: repeat(1,1fr);
       gap: 14px;
       }
       .run-extra{
-        max-width: 576px;
+        max-width: 45%px;
         height: 750px;
         display: flex;
         flex-direction: column;
@@ -557,15 +561,18 @@ b{
        padding: 16px 80px ;
       
       }
+      .run-content p{
+        font-size: 19px;
+      }
       .run-image{
         margin-left: 20px;
       }
       .run-image img{
-        width: 440px;
+        width: 390px;
         height: 300px;
       }
       .bmi-calculator{
-        max-width: 576p;
+        max-width: 90%;
         height: 120px;
         padding: 20px;
       }
