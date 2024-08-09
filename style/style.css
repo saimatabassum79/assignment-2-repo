@@ -479,6 +479,125 @@ b{
 .bmi-calculator p{
     font-size: 21px;
 }
+.bmi-content{
+    max-width: 100%;
+    height: 460px;
+   
+    background-color: #222222;
+    margin-top: 50px;
+}
+.bmi-table-form{
+    max-width: 90%;
+    height: 390px;
+   
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.bmi-table{
+   
+    width: 340px;
+    height: 320px;
+    background: none;
+}
+.bmi-table h1{
+   color: #FFFFFF;
+   font-size: 29px;
+   background: none;
+
+}
+table{
+    border-collapse: collapse;
+  
+    /* color: #FFFFFF; */
+    width: 335px;
+    height: 220px;
+    background: none;
+    margin-top: 10px;
+   
+}
+th{
+    background: none;
+    padding: 8px;
+    color: #FFFFFF;
+    border: 0.5px solid #FFFFFF80 ;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: space-around;
+   
+    
+}
+
+tr{
+    background: none;
+}
+ td{
+    border: 1px solid #FFFFFF80 ;
+    color: #FFFFFF80;
+    background: none;
+    padding-left: 30px;
+    font-weight: 400;
+   
+
+}
+ thead{
+    background: none;
+}
+tbody{
+    background: none;
+}
+.bmi-form{
+    width: 570px;
+    height: 390px;
+   
+    background: none;
+}
+.bmi-form h1{
+    color: #FFFFFF;
+    font-size: 31px;
+    background: none;
+    margin: 10px;
+    margin-top: 30px;
+
+}
+.bmi-form p{
+    color:  #FFFFFF80;
+    font-size: 19px;
+    background: none;
+    font-weight: 400;
+    margin: 18px;
+
+}
+input{
+    width: 210px;
+    height: 26px;
+    background: none;
+    font-size: 17px;
+    color: #fffafa80;
+    padding: 7px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: 400;
+    border: none;
+    margin-left: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+   
+    
+}
+#fact{
+    width: 475px;
+    height: 26px;
+}
+.btn-2{
+    padding: 12px 60px 12px 60px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
 @media screen and (max-width:576px) {
     header{
         max-width: 576px;
@@ -493,6 +612,9 @@ b{
        margin-left: 45px;
         font-size: 40px;
         margin-top: 20px;
+    }
+    .btn-primary1{
+        background: none;
     }
     .navbar, .banner-section{
         max-width: 576px;
@@ -575,5 +697,42 @@ b{
         max-width: 90%;
         height: 120px;
         padding: 20px;
+        padding-left: 40px;
+      }
+      .bmi-calculator p{
+        font-size: 20px;
+      }
+      .bmi-content{
+        width: 90%%;
+        height: 800px;
+      }
+      .bmi-table-form{
+        display: flex;
+        flex-direction: column;
+        width: 576px;
+        height: 470px;
+
+      }
+      .bmi-table{
+        margin-left: 5px;
+      }
+      .bmi-table h1{
+        margin-top: 20px;
+      }
+      .bmi-form{
+        width: 525px;
+        margin-top: 20px;
+        align-items: center;
+        margin-right: 40px;
+      }
+      .bmi-form p{
+        font-size: 18px;
+        margin-left: 10px;
+      }
+      input{
+        width: 180px;
+      }
+      #fact{
+        width: 415px;
       }
  }
