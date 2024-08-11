@@ -131,7 +131,7 @@ b{
 #mid{
     font-family:'Miama', sans-serif;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 90px;
     background: none;
    
 }
@@ -182,6 +182,7 @@ b{
    border-radius: 10px;
    padding:8px 16px;
    backdrop-filter: blur(3px);
+   top: 40%;
 }
 .part h2{
     color: #ffffff;
@@ -954,9 +955,85 @@ hr{
    font-size: 15px;
    font-weight: 400;
 }
-/* span{
-    margin-left: 200px;
-} */
+.Benefits{
+    max-width: 89%;
+    height: 500px;
+    
+} 
+.Benefits-tittle{
+    max-width: 50%;
+    height: 110px;
+    /* border: 2px solid rgb(239, 11, 11); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Benefits-tittle h1{
+    font-size: 30px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin: 10px;
+}
+.Benefits-tittle p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF80;
+}
+.Benefits-content{
+   max-width: 97%;
+    height: 370px;
+    /* border: 2px solid rgb(223, 238, 18); */
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    margin-top: 10px;
+    border-radius: 17px;
+}
+
+.content-list{
+    width: 50%;
+    height: 380px;
+    /* border: 2px solid rgb(124, 239, 108); */
+    background: none;
+    margin-bottom: 20px;
+}
+.content-list h1{
+    font-size: 23px;
+    font-weight: 800;
+    color: #FFFFFF;
+    background: none;
+   margin-left:25px;
+   margin-top: 45px;
+   margin-bottom: 30px;
+}
+.item{
+    background: none;
+   /* margin-top: 70px; */
+}
+.item-list{
+    background: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF80;
+    margin: 18px;
+    margin-top: 24px;
+}
+
+
+.Benefits-image{
+    width: 35%;
+    height: 410px;
+   background: none;
+   margin-top:90px;
+}
+.Benefits-image img{
+    width: 100%;
+    height: 320px;
+    border-radius: 17px;
+}
 @media screen and (max-width:576px) {
     header{
         max-width: 576px;
@@ -1004,12 +1081,12 @@ hr{
         margin-bottom: 900px;
        height: 580px;
      }
-      .part{
+      /* .part{
        margin-bottom: 100px;
      }
      .part1{
-        margin-top: 30px;
-     } 
+        top: 20px;
+     }  */
      .banner-content{
         margin-bottom: 0px;
      }
@@ -1087,22 +1164,22 @@ hr{
         margin-right: 40px;
       }
       .bmi-form p{
-        font-size: 16px;
+        font-size: 17px;
         margin-left: 10px;
       }
       input{
-        width: 180px;
+        width: 200px;
       }
       .select-box::after{
           
-          right: 95px;
+          right: 55px;
       }
       .select-box1::after{
-        right: 95px;
+        right: 55px;
         margin-top: 12px;
       }
       #fact{
-        width: 415px;
+        width: 453.5px;
       }
       .our-team{
         max-width:145%;
@@ -1139,6 +1216,50 @@ hr{
         gap:24px;
         padding-top: 20px;
         padding-bottom: 20px;
+      }
+      .Benefits{
+        max-width: 89%;
+        height: 800px;
+      }
+      .Benefits-tittle{
+        max-width: 80%;
+      }
+      .Benefits-tittle h1{
+        font-size: 25px;
+      }
+      .Benefits-tittle p{
+        font-size: 16px;
+      }
+      .Benefits-content{
+        max-width: 91%;
+        height: 670px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .content-list{
+        width: 95%;
+        height: 300px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+      }
+      .content-list h1{
+        font-size: 20px;
+        margin-top:10px ;
+      }
+      .item-list{
+        font-size: 17px;
+      }
+      .Benefits-image{
+        width: 90%;
+        height: 300px;
+        margin-top: 2px;
+      }
+      .Benefits-image img{
+        width: 100%;
+        height: 300px;
+        
       }
      footer{
         max-width: 100%;
