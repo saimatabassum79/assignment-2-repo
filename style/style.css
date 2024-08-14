@@ -189,8 +189,6 @@ b{
     background: none;
      margin-left: 200px;
     right: 5px;
-   
-   
 }
 .part{
     width:80%;
@@ -265,12 +263,7 @@ b{
     margin-left: 12px;
     display: none;
 }
-/* .circle1-btn{
-    width: 15px;
-    height: 15px;
-    transform: rotate(90.00deg);
-    background-color: #ffffff;
-} */
+
 .circle{
    
     width: 150px;
@@ -555,7 +548,7 @@ table{
     border-collapse: collapse;
   
     /* color: #FFFFFF; */
-    width: 340px;
+    width: 100%;
     height: 220px;
     background: none;
     margin-top: 10px;
@@ -597,6 +590,10 @@ tbody{
   
     background: none;
 }
+.bmi-form-tittle{
+    width: 100%;
+    background: none;
+}
 .bmi-form h1{
     color: #FFFFFF;
     font-size: 31px;
@@ -611,10 +608,11 @@ tbody{
     background: none;
     font-weight: 400;
     margin: 18px;
+    margin-left: 9px;
 
 }
 .input-box{
-   border: 2px solid whitesmoke;
+  
    background: none;
 }
 .input-box-1{
@@ -957,7 +955,7 @@ hr{
    color: #FFFFFF80;
    margin-top: 23px;
    background: none;
-   font-size: 15px;
+   font-size: 14px;
    font-weight: 400;
 }
 .Benefits{
@@ -1048,7 +1046,7 @@ hr{
         /* max-width: 576px; */
         max-width: 576px;
         
-        height: 1230px;
+        height: 1150px;
         background: linear-gradient(180.00deg, rgb(32, 31, 31),rgba(144, 142, 142, 0) 100%);
     }
     .nav-links{
@@ -1086,8 +1084,8 @@ hr{
        
     }
     .section-tittle{
-        font-size: 40px;
-        font-weight: 700;
+        font-size: 50px;
+        font-weight: 800;
         margin-top: 14px;
        
        
@@ -1104,10 +1102,10 @@ hr{
         
      }
      .banner-image{
-       border: 2px solid wheat;
+      
       width: 100%;
       height: 640px;
-
+      margin-top: 20px;
      }
      .part-new1{
         max-width: 50%;
@@ -1124,9 +1122,9 @@ hr{
     .part-1{
         margin-right: 0px;
     }
-    /* .part-1{
-        width: 143px;
-    } */
+    .play-btn{
+        display: flex;
+     }
      .circle-h{
         font-size: ;
      }
@@ -1141,8 +1139,8 @@ hr{
      .change-habit{
         max-width: 100%;
         height: 1650px;
-        margin-top: 10px;
-        border: 2px solid wheat;
+        margin-top: 0px;
+       
      }
      .habit h1{
         font-size: 25px;
@@ -1159,7 +1157,7 @@ hr{
       display: grid;
       grid-template-columns: repeat(1,1fr);
       gap: 14px;
-      border: 2px solid wheat;
+     
       margin-top: 10px;
       }
       .habit-image1 {
@@ -1228,7 +1226,7 @@ hr{
       .run-content{
         max-width: 88%;
         height: 330px;
-        border: 2px solid wheat;
+       
         margin-top: 2px;
         margin: 0 auto;
       }
@@ -1250,7 +1248,7 @@ hr{
       
       .run-image{
         margin-left: 20px;
-        border: 2px solid wheat;
+       
       }
       .run-image img{
         width: 100%;
@@ -1275,7 +1273,7 @@ hr{
       }
       .bmi-content{
         max-width: 100%;
-        height: 840px;
+        height: 820px;
         margin-top: 10px;
       }
       .bmi-table-form{
@@ -1283,32 +1281,43 @@ hr{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        max-width: 90%;
-        height: 790px;
+        max-width: 96%;
+        height: 780px;
         margin: 0 auto;
-        border: 2px solid wheat;
+       
       }
       .bmi-table{
-        margin-left: 4px;
+        margin-left: 19px;
         margin-top: 1px;
       }
+      table{
+        width: 90%;
+        margin-left: 0px;
+      }
+      th{
+        font-size: 15px;
+      }
       .bmi-table h1{
-        margin-top: 10px;
+        margin-top: 20px;
       }
       .bmi-form{
         max-width: 100%;
         height: 500px;
-        border: 2px solid wheat;
-        
-        
+       
       }
+      .bmi-form-tittle{
+        width: 85%;
+        background: none;
+      
+        margin-left: 0px;
+    }
       .bmi-form h1{
-        margin-left: 4px;
+        margin-left: 15px;
 
       }
       .bmi-form p{
-        font-size: 17px;
-        margin-left: 4px;
+        font-size: 14px;
+        margin-left: 15px;
       }
       .input-box{
         width: 100%;
@@ -1317,25 +1326,30 @@ hr{
       }
       
       input{
-       width: 35%;
-        margin-left: 1px;
+       width: 125px;
+        margin-left: 13px;
         font-size: 15px;
-       margin-left: auto;
+      
        margin-right: auto;
        position: relative;
       }
+      .input-1{
+        margin-left: 3px;
+      }
       select{
-        max-width: 44.4%;
-        margin-left: 2px;
+        width: 165px;
+        margin-left: 3px;
         font-size: 15px;
-        margin-left: auto;
+        
         margin-right: auto;
         position: relative;
       }
      #select{
-        max-width:92%;
+        max-width:335px;
         padding-left: 13px;
         align-self: center;
+        width: fixed;
+        margin-left: 13px;
      }
       .btn-2{
         margin-top: 30px;
@@ -1343,7 +1357,7 @@ hr{
         font-size: 16px;
        align-items: center;
        
-       margin-left: 0px;
+       margin-left: 15px;
       
       }
       .our-team{
@@ -1454,11 +1468,11 @@ hr{
       .content-list h1{
         font-size: 17px;
         margin-top:10px ;
-        margin-left: 20px;
+        margin-left: 15px;
       }
       .item-list{
         font-size: 15px;
-        margin-left: 10px;
+        margin-left: 0px;
         margin-top: 12px;
       }
       .Benefits-image{
@@ -1485,13 +1499,14 @@ hr{
      }
      .fitness-tittle{
       width:95%;
-      height: 200px;
+      height: 150px;
      
      }
      .fitness-get{
         width: 95%;
         padding-left: 10px;
-        height:200px;
+        height:150px;
+        margin-top: 0px;
        
      }
      .fitness-get h1{
@@ -1500,7 +1515,7 @@ hr{
      .fitness-start{
         width: 95%;
         padding-left: 10px;
-        height:200px;
+        height:170px;
 
      }
      .fitness-start h1{
@@ -1512,7 +1527,8 @@ hr{
      #end{
         font-size: 14px;
         margin-top: 10px;
-        max-width: 100%;
-        margin-left: 110px;
+        max-width: 60%;
+         margin-left: 110px; */
+        margin-right: auto;
      }
  }
